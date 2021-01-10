@@ -125,6 +125,7 @@ int main()
 
     fp = fopen(file,"r");
     printf("1st line");
+    printf("2nd line");
 
     int n;
     fscanf(fp,"%d",&n);
